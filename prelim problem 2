@@ -1,4 +1,4 @@
-class Student_with_Attributes():
+class Student():
   def __init__ (Self, Name, StudentNo, Age, School, Course):
     Self.Name = Name
     Self.StudentNo = StudentNo
@@ -12,5 +12,5 @@ class Student_with_Attributes():
   def Section(Self):
     print(Self.Ako())
 
-Ako = Student_with_Attributes("Jao, Jesus Mike B., ", "202114088, ", "20, ", "Adamson University, ", "BS Computer Engineering")
+Ako = Student("Jao, Jesus Mike B., ", "202114088, ", "20, ", "Adamson University, ", "BS Computer Engineering")
 Ako.Section()
